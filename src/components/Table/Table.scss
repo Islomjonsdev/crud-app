@@ -1,4 +1,10 @@
 .table_wrapper {
+
+    .success_message {
+        text-align: center;
+        color: green;
+        margin-bottom: 10px;
+    }
   table {
     width: 100%;
     border-collapse: collapse;
