@@ -1,0 +1,52 @@
+.main {
+  margin-top: 50px;
+  .container {
+    max-width: 1480px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .main_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    button {
+      border: none;
+      cursor: pointer;
+      background-color: #68b8f1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: #fff;
+      padding: 10px 20px;
+      font-weight: 500;
+      font-size: 20px;
+      border-radius: 10px;
+    }
+  }
+}
+
+.create_new {
+    background: #fff;
+
+    .create_new-header {
+        background: red;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        div {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 5px;
+        }
+    }
+}

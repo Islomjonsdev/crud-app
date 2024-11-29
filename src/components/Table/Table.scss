@@ -1,0 +1,53 @@
+.table_wrapper {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th {
+    padding: 10px;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  td {
+    padding: 5px 5px;
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+    button {
+      border: none;
+      background: none;
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .edit {
+      background-color: #6489de;
+      border-radius: 50%;
+      svg {
+        color: #fff;
+      }
+    }
+
+    .delete {
+      background-color: red;
+      border-radius: 50%;
+      svg {
+        color: #fff;
+      }
+    }
+  }
+}
