@@ -65,6 +65,7 @@ const Main = () => {
         <div className="container">
           <div className="main_top">
             <h1>Crud</h1>
+            <span>{data?.length}</span>
             <button onClick={handleAdd}>
               <IoMdAdd />
               Create New
