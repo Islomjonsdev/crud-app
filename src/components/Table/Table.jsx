@@ -2,7 +2,6 @@ import { useState } from "react";
 import { instance } from "../../api";
 import { RiDeleteBin6Fill } from "react-icons/ri";
 import { MdModeEditOutline } from "react-icons/md";
-import 'react-toastify/dist/ReactToastify.css';
 import "./Table.scss";
 import { toast } from "react-toastify";
 
