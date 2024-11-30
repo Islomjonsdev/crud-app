@@ -43,8 +43,6 @@ const Main = () => {
       description: description,
       price: price,
     };
-    console.log(formData);
-
     instance
       .post(`/work`, formData, {
         headers: { "Content-Type": "application/json" },
