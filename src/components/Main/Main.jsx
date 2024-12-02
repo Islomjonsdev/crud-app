@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { IoMdAdd } from "react-icons/io";
+import { toast } from "react-toastify";
 import { instance } from "../../api";
 import Loading from "../Loading/Loading";
 import Table from "../Table/Table";
@@ -50,6 +51,7 @@ const Main = () => {
       .then((res) => {
         setData(res?.data);
         setAddUser(false);
+        toast.success("Successfully posted")
       })
       .catch((err) => {
         console.log(err);
